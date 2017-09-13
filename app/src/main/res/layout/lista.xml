@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Texto Frase"
+        android:id="@+id/registro"
+        android:layout_below="@+id/nombreAnimal"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView4"
+
+        android:textSize="19sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/imageView4"
+        android:cropToPadding="false"
+        android:src="@drawable/finca"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:maxHeight="50dp"
+        android:maxWidth="74dp"
+        android:adjustViewBounds="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Titulo Frase"
+        android:id="@+id/nombreAnimal"
+        android:textSize="25sp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/registro"
+        android:layout_alignStart="@+id/registro" />
+
+
+</RelativeLayout>
+
+    <!--android:textColor="@android:color/white"-->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alimentacion">
+        <item>1. Pastoreo</item>
+        <item>2. Semi estabulación</item>
+        <item>3. Estabulación</item>
+        <item>4. Suplementación en potrero</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PNEMG</string>
+    <string name="action_salir">Salir</string>
+    <string name="action_descargar">Descargar datos</string>
+    <string name="action_subir">Subir datos</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="eliminar_datos">Eliminar datos del celular</string>
+
+
+
+</resources>
